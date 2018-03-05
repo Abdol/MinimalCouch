@@ -1,0 +1,10 @@
+framework module MinimalCouch {
+  umbrella header "MinimalCouch-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module MinimalCouch.__Swift {
+    exclude header "MinimalCouch-Swift.h"
+}

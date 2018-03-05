@@ -1,0 +1,11 @@
+framework module MinimalCouch {
+  umbrella header "MinimalCouch-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module MinimalCouch.Swift {
+    header "MinimalCouch-Swift.h"
+    requires objc
+}

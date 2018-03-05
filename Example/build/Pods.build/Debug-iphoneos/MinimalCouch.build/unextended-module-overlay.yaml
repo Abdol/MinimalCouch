@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/abdol/Desktop/MinimalCouch/Example/build/Debug-iphoneos/MinimalCouch/MinimalCouch.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/abdol/Desktop/MinimalCouch/Example/build/Pods.build/Debug-iphoneos/MinimalCouch.build/unextended-module.modulemap',
+    }]
+  }]
+}
