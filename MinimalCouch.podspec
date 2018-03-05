@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MinimalCouch'
-  s.version          = '0.2.1'
+  s.version          = '0.3.0'
   s.summary          = 'A short description of MinimalCouch.'
 
 # This description is used to generate tags and improve search results.
@@ -31,11 +31,13 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'MinimalCouch/Classes/**/*'
-  
   s.framework  = "Foundation"
   s.dependency "Alamofire", "~> 4.6"
   s.dependency "SwiftyJSON"
   s.dependency "SwiftCloudant" #, :git => "https://github.com/cloudant/swift-cloudant.git"
+  # s.resource_bundles = {
+  #   'MinimalCouch' => ['MinimalCouch/Assets/*.png']
+  # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

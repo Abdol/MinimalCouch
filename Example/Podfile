@@ -1,11 +1,6 @@
 use_frameworks!
-
-target 'MinimalCouch_Example' do
+target 'MinimalCouch_Tests' do
   pod 'MinimalCouch', :path => '../'
-
-  target 'MinimalCouch_Tests' do
-    inherit! :search_paths
-
-    
-  end
+  
+  
 end
