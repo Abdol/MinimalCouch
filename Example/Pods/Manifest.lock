@@ -1,0 +1,16 @@
+PODS:
+  - MinimalCouch (0.1.0)
+
+DEPENDENCIES:
+  - MinimalCouch (from `../`)
+
+EXTERNAL SOURCES:
+  MinimalCouch:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MinimalCouch: a380476c527d776a571b56e7efbe63347d65655f
+
+PODFILE CHECKSUM: 0bb95b1f90b0088c0366e10eba5f2621d1921c35
+
+COCOAPODS: 1.4.0

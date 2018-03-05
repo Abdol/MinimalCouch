@@ -1,0 +1,6 @@
+framework module MinimalCouch {
+  umbrella header "MinimalCouch-umbrella.h"
+
+  export *
+  module * { export * }
+}
