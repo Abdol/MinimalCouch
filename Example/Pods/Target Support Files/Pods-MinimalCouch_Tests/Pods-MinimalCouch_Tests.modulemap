@@ -1,6 +1,0 @@
-framework module Pods_MinimalCouch_Tests {
-  umbrella header "Pods-MinimalCouch_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}

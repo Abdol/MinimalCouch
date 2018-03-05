@@ -1,6 +1,0 @@
-framework module Pods_MinimalCouch_Example {
-  umbrella header "Pods-MinimalCouch_Example-umbrella.h"
-
-  export *
-  module * { export * }
-}
