@@ -37,7 +37,7 @@ public class MinimalCouch {
         self.read()
     }
     
-    public func connectToDatabase(databaseName: String, databaseURL: String, databaseUsername: String?, databasePassword: String?) {
+    internal func connectToDatabase(databaseName: String, databaseURL: String, databaseUsername: String?, databasePassword: String?) {
         let clientURL = NSURL(string:databaseURL)!
         self.client = CouchDBClient(url:clientURL as URL, username:databaseUsername, password:databasePassword)
     }
